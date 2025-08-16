@@ -6,3 +6,10 @@ for (let i = 0; i < 256; i++) {
     div.classList.add("gridItem");
     container.appendChild(div);
 }
+
+const gridItems = document.querySelectorAll(".gridItem")
+
+gridItems.forEach((gridItem) => {
+    // I was able to change all the divs to red, now I need to figure how to iterate and do it on hover.
+    gridItem.setAttribute("style", "background: red;")
+    })

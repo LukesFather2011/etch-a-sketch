@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     flex: 1; 
     border: red solid 1px;
-    background-color: peachpuff;
+    background-color: whitesmoke;
 }
 
 #buttonContainer {
@@ -28,7 +28,7 @@ body {
 
 .gridItem {
   border: 0.5px solid black;
-  background-color: olive;
+  background-color: whitesmoke;
   box-sizing: border-box;
 }
 

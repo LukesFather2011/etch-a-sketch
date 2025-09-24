@@ -1,4 +1,5 @@
 const container = document.querySelector("#container");
+const divContainer = document.querySelector("#divContainer");
 const button    = document.querySelector("button");
 const gridItems = document.querySelectorAll(".gridItem")
 
@@ -7,8 +8,8 @@ function createGrid (divsPerSide) {
     for (let i = 0; i < divsPerSide * divsPerSide; i++) {
     const div = document.createElement("div");
     div.classList.add("gridItem");
-    container.appendChild(div);
-}
+    div.appendChild(div);
+    }
 }
 
 // I need to add functionality to add divs per side.
